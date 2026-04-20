@@ -190,7 +190,7 @@ Working Capital: {fmt(working_cap)}
                 st.error(f"Error fetching data: {e}")
 
 # ── Ask Claude ─────────────────────────────────────────────
-st.header("🤖 Ask Claude")
+st.header("Ask Questions")
 your_question = st.text_input(
     "Type your question:",
     placeholder="e.g. Is this company financially healthy?"
