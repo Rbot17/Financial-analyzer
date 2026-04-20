@@ -189,7 +189,7 @@ Working Capital: {fmt(working_cap)}
             except Exception as e:
                 st.error(f"Error fetching data: {e}")
 
-# ── Ask Claude ─────────────────────────────────────────────
+# ── Ask Questions ─────────────────────────────────────────────
 st.header("Ask Questions")
 your_question = st.text_input(
     "Type your question:",
