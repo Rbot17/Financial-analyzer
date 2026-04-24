@@ -227,7 +227,7 @@ Answer this question clearly:
                         }
                     ]
                 )
-                st.success("✅ Claude says:")
+                st.success("✅ Analysis:")
                 st.write(message.content[0].text)
 
             except Exception as e:
