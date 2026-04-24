@@ -202,7 +202,7 @@ if st.button("🔍 Analyze"):
     elif not your_question:
         st.warning("Please type a question first.")
     else:
-        with st.spinner("Claude is analyzing..."):
+        with st.spinner("Analyzing..."):
             try:
                 client = anthropic.Anthropic(api_key=api_key)
                 message = client.messages.create(
